@@ -5,3 +5,7 @@ body {
 .whatever {
   background-color: yellow;
 }
+
+footer { color: #00FF00;
+    display: block;
+}
