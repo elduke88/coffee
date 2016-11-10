@@ -11,10 +11,12 @@ body {
   padding: 0px 0px 0px 0px;
 }
 .article-heading {
+  height: 75px;
   position: relative;
   background-color: tan;
 }
 .article-heading-section {
+  display: inline-block;
   position: absolute;
   bottom: 0;
   right: 15px;
