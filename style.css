@@ -5,3 +5,36 @@ body {
 .whatever {
   background-color: yellow;
 }
+
+
+#header-top {
+	width: 100%;
+	background-color: white;
+	height: 300px;
+
+}
+
+.header-title {
+	text-align:center;
+}
+
+.header-title h1 {
+	color: gray;
+	font-family: Helvetica;
+	font-size: 64px;
+	display: inline-block;
+
+
+
+}
+
+.header-nav {
+	text-align:center;
+}
+
+.header-nav li {
+	font-size: 32px;
+	text-align: center;
+	display: inline-block;
+
+}
