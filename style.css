@@ -62,9 +62,16 @@ footer { color: #00FF00;
 
 .header-nav {
 	text-align:center;
+	font-family: Georgia;
+}
+
+.header-nav ul {
+	padding-right: 3%;
+	margin: 0 auto;
 }
 
 .header-nav li {
+	padding-right: 10px;
 	font-size: 32px;
 	text-align: center;
 	display: inline-block;
