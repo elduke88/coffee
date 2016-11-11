@@ -2,7 +2,7 @@ body {
   background-color: white;
 }
 
-#article-columns {
+#article-column {
   height: 100%;
   background-color: tan;
   border: 2px solid black;
@@ -13,7 +13,18 @@ body {
 .article-heading {
   height: 75px;
   position: relative;
-  background-color: tan;
+  background-color: #dacca1;
+  border-bottom: 2px solid white;
+}
+.article-heading h4 {
+  margin-bottom: 4px;
+}
+.article-heading small {
+  padding-right: 2px;
+  float: right;
+}
+.article-heading-image {
+  float: right;
 }
 .article-heading-section {
   display: inline-block;
