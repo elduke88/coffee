@@ -64,12 +64,25 @@ footer { color: #00FF00;
 
 }
 
+.header-image {
+	padding-right: 25px;
+}
+
+.header-image img {
+	background-color: brown;
+	width: 65px;
+	height: 50px;
+	padding-right: 10px;
+}
+
 .header-title {
 	text-align:center;
+	margin-top: 0%;
 }
 
 .header-title h1 {
 	margin-top: 100px;
+	margin-right: 10px;
 	color: gray;
 	font-family: Helvetica;
 	font-size: 64px;
@@ -85,14 +98,23 @@ footer { color: #00FF00;
 }
 
 .header-nav ul {
-	padding-right: 3%;
+	padding-right: 2%;
 	margin: 0 auto;
 }
 
 .header-nav li {
+	color: gray;
 	padding-right: 10px;
-	font-size: 32px;
+	font-size: 24px;
 	text-align: center;
 	display: inline-block;
 
+}
+
+.header-nav li:hover {
+	color: brown;
+}
+
+span {
+	color:brown;
 }
