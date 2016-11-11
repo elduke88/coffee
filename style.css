@@ -2,8 +2,28 @@ body {
   background-color: blue;
 }
 
-.whatever {
-  background-color: yellow;
+#article-columns {
+  height: 100%;
+  background-color: tan;
+  border: 2px solid black;
+}
+.article-content {
+  padding: 0px 0px 0px 0px;
+}
+.article-heading {
+  height: 75px;
+  position: relative;
+  background-color: tan;
+}
+.article-heading-section {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+footer { color: #00FF00;
+    display: block;
 }
 
 
