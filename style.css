@@ -113,6 +113,7 @@ footer { color: #00FF00;
 
 .header-nav li:hover {
 	color: brown;
+	text-decoration: underline
 }
 
 span {
