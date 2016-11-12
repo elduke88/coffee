@@ -126,7 +126,10 @@ footer { color: #00FF00;
 span {
 	color:brown;
 }
-
+.card-container {
+  width: 100%;
+  clear: both;
+}
 .member-card-container {
   display: inline-block;
   width: 200px;
