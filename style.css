@@ -71,8 +71,9 @@ footer { color: #00FF00;
 
 }
 
+
 .header-image {
-	padding-right: 25px;
+	padding-right: 35px;
 }
 
 .header-image img {
@@ -105,7 +106,7 @@ footer { color: #00FF00;
 }
 
 .header-nav ul {
-	padding-right: 2%;
+	padding-right: 4%;
 	margin: 0 auto;
 }
 
@@ -123,6 +124,19 @@ footer { color: #00FF00;
 	text-decoration: underline
 }
 
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
 span {
 	color:brown;
+}
+
+
+@media all and (max-width:984px) {
+	.container {
+		width:100%;
+		margin: 0 auto;
+	}
 }
