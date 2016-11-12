@@ -51,7 +51,14 @@ body {
   bottom: 0;
   right: 0;
 }
-
+.article-photo {
+  display: inline-block;
+  float: left;
+  padding: 0px 20px 0px 20px;
+}
+.right {
+  float: right;
+}
 footer { color: #00FF00;
     display: block;
 }
