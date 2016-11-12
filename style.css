@@ -153,16 +153,16 @@ footer { color: #00FF00;
 span {
 	color: tan;
 }
-.card-container {
-  width: 100%;
-  clear: both;
-}
-
 @media all and (max-width:984px) {
 	.container {
 		width:100%;
 		margin: 0 auto;
 	}
+}
+.cardholder {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 .member-card-container {
   display: inline-block;
@@ -186,11 +186,11 @@ span {
 .back-side {
   background-color: yellow;
   transform: rotateY( 180deg );
+  padding: 10px;
 }
 .member-card-container.effect:hover .front-side {
   transform: rotateY( 180deg );
 }
 .member-card-container.effect:hover .back-side {
   transform: rotateY( 0 );
-
 }
