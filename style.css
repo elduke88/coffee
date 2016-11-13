@@ -224,3 +224,14 @@ span {
   display: flex;
   flex-wrap: wrap;
 }
+.contact-form {
+  flex-grow: 1;
+}
+.contact-row {
+}
+.contact-row {
+  align-items: center;
+}
+.contact-right {
+  text-align: right;
+}
