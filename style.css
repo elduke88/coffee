@@ -181,10 +181,12 @@ span {
   transition: 0.7s;
 }
 .front-side {
+  color: white;
   background-color: tan;
+  padding: 10px;
 }
 .back-side {
-  background-color: yellow;
+  background-color: #dacca1;
   transform: rotateY( 180deg );
   padding: 10px;
 }
@@ -193,4 +195,15 @@ span {
 }
 .member-card-container.effect:hover .back-side {
   transform: rotateY( 0 );
+}
+.card-text {
+  color: white;
+}
+.back-side span{
+  color: black;
+}
+.card-brew-info {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
