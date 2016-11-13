@@ -1,6 +1,9 @@
 body {
   background-color: beige;
 }
+ul {
+  list-style: none;
+}
 
 .header-nav a {
 
@@ -216,4 +219,7 @@ span {
   display: block;
   margin-bottom: 5px;
   text-decoration: underline;
+}
+.contact-container {
+  display: flex;
 }
