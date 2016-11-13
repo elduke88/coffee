@@ -222,4 +222,5 @@ span {
 }
 .contact-container {
   display: flex;
+  flex-wrap: wrap;
 }
