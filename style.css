@@ -21,7 +21,7 @@ body {
   padding: 0;
 }
 .article-content {
-  padding: 01px 01px 01px 01px;
+  padding: 01px 15px 01px 15px;
 }
 .article-heading {
   height: 75px;
@@ -31,6 +31,9 @@ body {
 }
 .article-heading hr {
   margin-top: 0;
+}
+.article-title {
+  margin-left: 25px;
 }
 .article-content p {
   padding-left: 10px;
@@ -77,34 +80,25 @@ body {
 footer { color: #00FF00;
     display: block;
 }
-
-
 #header-top {
 	width: 100%;
 	background-color: beige;
 	height: 300px;
 
 }
-
-
-
-
 .header-image {
 	padding-right: 35px;
 }
-
 .header-image img {
 	background-color: tan;
 	width: 65px;
 	height: 50px;
 	padding-right: 10px;
 }
-
 .header-title {
 	text-align:center;
 	margin-top: 0%;
 }
-
 .header-title h1 {
 	margin-top: 100px;
 	margin-right: 10px;
@@ -113,7 +107,6 @@ footer { color: #00FF00;
 	font-size: 64px;
 	display: inline-block;
 }
-
 .header-nav {
 	text-align:center;
 	font-family: Georgia;
@@ -141,7 +134,6 @@ footer { color: #00FF00;
 	position: relative;
 	display: inline-block;
 }
-
 .dropdown-content {
 	display: none;
 	position: absolute;
@@ -152,11 +144,9 @@ footer { color: #00FF00;
 	padding: 12px 16px 10px 0s;
 	border: 1px solid black;
 }
-
 .dropdown:hover .dropdown-content {
 	display:block;
 }
-
 .container {
 	width: 960px;
 	margin: 0 auto;
