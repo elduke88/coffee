@@ -22,11 +22,12 @@ ul {
   background-color: tan;
   border: 2px solid black;
   padding: 0;
+  margin-top: 20px;
 }
 .article-content {
   padding: 01px 15px 01px 15px;
 }
-.article-heading, .footer-container {
+.article-heading, .footer-container, .page-title {
   height: 75px;
   position: relative;
   background-color: #dacca1;
