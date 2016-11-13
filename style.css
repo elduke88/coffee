@@ -141,6 +141,27 @@ footer { color: #00FF00;
 	text-decoration: underline
 }
 
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: beige;
+	min-width: 145px;
+	height: 45px;
+	box-shadow: 0px 8px 16px 0px;
+	padding: 12px 16px 10px 0s;
+	border: 1px solid black;
+
+}
+
+.dropdown:hover .dropdown-content {
+	display:block;
+}
+
 .container {
 	width: 960px;
 	margin: 0 auto;
