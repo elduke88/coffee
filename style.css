@@ -155,6 +155,17 @@ footer { color: #00FF00;
 	margin: 0 auto;
 }
 
+.container-donate {
+	width: 960px;
+	margin:0 auto;
+	text-align:center;
+	font-family: helvetica;
+}
+
+.container-donate h1 {
+	display:inline;
+	color:gray;
+}
 span {
 	color: tan;
 }
@@ -234,4 +245,12 @@ span {
 }
 .contact-right {
   text-align: right;
+}
+
+
+.article-donate {
+	border: 1px solid black;
+	background-color: tan ;
+	padding-left: 5px;
+
 }
