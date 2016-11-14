@@ -6,11 +6,9 @@ ul {
 }
 
 .header-nav a {
-
 	color: gray;
 	font-family: Georgia;
 	text-decoration: none;
-
 }
 
 .header-nav a:hover {
@@ -242,16 +240,14 @@ span {
 .contact-form {
   flex-grow: 1;
 }
-.contact-row {
+.contact-row, .credit-row{
 }
 .contact-row {
   align-items: center;
 }
-.contact-right {
+.contact-right, .credit-right {
   text-align: right;
 }
-
-
 .article-donate {
 	border: 1px solid black;
 	background-color: tan ;
